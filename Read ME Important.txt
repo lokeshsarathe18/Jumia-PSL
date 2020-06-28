@@ -1,0 +1,23 @@
+To Access web-services use following urls->
+
+fetchUserDetails: http://localhost:8080/Jumia-PSL/api/users/username
+
+fetchOrderDetailsForUser: http://localhost:8080/Jumia-PSL/api/users/lokesh/orders/orderNumber
+
+fetchAllOrdersForUser: http://localhost:8080/Jumia-PSL/api/users/lokesh/orders
+
+fetchWishlistForUser: http://localhost:8080/Jumia-PSL/api/users/lokesh/wishlist
+
+fetchPopularProductsBetween: http://localhost:8080/Jumia-PSL/api/products/1/fromDate/toDate
+
+fetchProductsConsumptionBetween: http://localhost:8080/Jumia-PSL/api/products/2/fromDate/toDate
+
+fetchAllOrders: http://localhost:8080/Jumia-PSL/api/admin
+
+fetchAllOrdersBetween: http://localhost:8080/Jumia-PSL/api/admin/fromDate/toDate
+
+Date format: 2020-04-01
+
+To login as admin use
+username: admin
+password: password
